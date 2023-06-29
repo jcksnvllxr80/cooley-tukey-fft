@@ -43,6 +43,12 @@ def is_power_of_two(num) -> bool:
 
 
 def next_square(n) -> int:
+    """
+    1. "log (base 2) of n" says, "2^? = n"
+        if the result is an integer, then n is a power of two
+    2. take the ceiling of the result of log so we get the next whole number (integer)
+    3. raise 2 to the ceiling result and convert to an int to get the next square
+    """
     # print(f"n -> {n}")
     return int(pow(2, ceil(log(n, 2))))
 
