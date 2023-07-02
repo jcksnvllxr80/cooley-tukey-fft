@@ -1,4 +1,4 @@
-# FFT: cooley-tukey
+# FFT: cooley-tukey (from scratch)
 
 using this to learn about convolution and FFT in general
 
