@@ -1,4 +1,3 @@
-# This is a sample Python script.
 from typing import List
 import numpy as np
 from math import sqrt, pi, ceil, pow, log
